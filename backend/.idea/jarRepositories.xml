@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="igix-rep" />
+      <option name="name" value="igix-rep" />
+      <option name="url" value="https://repos.iec.io/repository/maven-igix/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="caf-rep" />
+      <option name="name" value="caf-rep" />
+      <option name="url" value="https://repos.iec.io/repository/maven-caf/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ecp-rep" />
+      <option name="name" value="ecp-rep" />
+      <option name="url" value="http://repos.iec.io/repository/maven-ecp/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-milestones" />
+      <option name="name" value="spring-milestones" />
+      <option name="url" value="https://repo.spring.io/milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gsp-rep" />
+      <option name="name" value="gsp-rep" />
+      <option name="url" value="https://repos.iec.io/repository/maven-gsp/" />
+    </remote-repository>
+  </component>
+</project>

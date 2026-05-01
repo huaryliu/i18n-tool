@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "i18n.extensions",
+      "type": "com.igix.i18n.config.ExtractorConfig",
+      "sourceType": "com.igix.i18n.config.ExtractorConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "i18n.extensions.classes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.igix.i18n.config.ExtractorConfig"
+    },
+    {
+      "name": "i18n.extensions.directory",
+      "type": "java.lang.String",
+      "sourceType": "com.igix.i18n.config.ExtractorConfig",
+      "defaultValue": "extensions"
+    },
+    {
+      "name": "i18n.extensions.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.igix.i18n.config.ExtractorConfig",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

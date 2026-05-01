@@ -1,0 +1,12 @@
+com\igix\i18n\extractor\impl\BackendPropertiesExtractor.class
+com\igix\i18n\service\ExtractorService.class
+com\igix\i18n\controller\ExtractorController.class
+com\igix\i18n\config\ExtractorConfig.class
+com\igix\i18n\I18nExtractorApplication.class
+META-INF\spring-configuration-metadata.json
+com\igix\i18n\extractor\impl\FrontendJsonExtractor.class
+com\igix\i18n\extractor\ResourceExtractor.class
+com\igix\i18n\model\ExtractedFile$ExtractedFileBuilder.class
+com\igix\i18n\dto\ExtractRequest.class
+com\igix\i18n\model\ExtractedFile.class
+com\igix\i18n\controller\WebController.class

@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: i18n-extractor
+  web:
+    resources:
+      static-locations: classpath:/web/, file:./web/
+      cache:
+        period: 0
+
+i18n:
+  extensions:
+    enabled: true
+    directory: extensions
+    classes:
+      # 自定义扩展类全限定名
+      # - com.example.CustomExtractor
+
+logging:
+  level:
+    root: INFO
+    com.igix.i18n: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

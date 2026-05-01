@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x tool/startup-linux.sh)",
+      "Bash(mvn clean *)"
+    ]
+  }
+}

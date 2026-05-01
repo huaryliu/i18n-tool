@@ -1,0 +1,23 @@
+iGIX I18n Resource Extractor
+Version: 1.0.0
+Build Date: 2025-08-16
+Copyright: iGIX
+Description: Internationalization resource file extraction tool for iGIX products
+
+Features:
+- Backend .properties files extraction (zh-CHS, en, zh-CHT)
+- Frontend .json files extraction (en.json, zh-CHS.json, zh-CHT.json)
+- Web-based interface with file tree preview
+- Extensible architecture for custom extractors
+- Standalone tool with embedded Tomcat server
+
+Supported Languages:
+- zh-CHS: Simplified Chinese
+- en: English
+- zh-CHT: Traditional Chinese
+
+Requirements:
+- JDK 17+
+- 8080 port available
+
+For more information, please refer to the user documentation.
