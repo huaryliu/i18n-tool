@@ -1,4 +1,4 @@
-package com.igix.i18n.dto;
+package com.abc.i18n.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

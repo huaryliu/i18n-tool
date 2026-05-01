@@ -1,8 +1,8 @@
-package com.igix.i18n.service;
+package com.abc.i18n.service;
 
-import com.igix.i18n.dto.ExtractRequest;
-import com.igix.i18n.extractor.ResourceExtractor;
-import com.igix.i18n.model.ExtractedFile;
+import com.abc.i18n.dto.ExtractRequest;
+import com.abc.i18n.extractor.ResourceExtractor;
+import com.abc.i18n.model.ExtractedFile;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -2,7 +2,7 @@
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 
-# iGIX I18n Resource Extractor Linux/Mac Startup Script
+# abc I18n Resource Extractor Linux/Mac Startup Script
 
 # Optional values: prod|dev.
 # prod:Production Environment; dev:Development Environment
@@ -44,7 +44,7 @@ CONFIG_FILE="$(dirname "$0")/config/application.yaml"
 RTF_BOOTSTRAP=$(find "$RTF_BOOT_HOME" -name "i18n-extractor*.jar" | head -1)
 
 echo "====================================="
-echo "iGIX I18N Resource Extractor"
+echo "abc I18N Resource Extractor"
 echo "====================================="
 echo ""
 echo "JAVA_HOME: $JAVA_HOME"

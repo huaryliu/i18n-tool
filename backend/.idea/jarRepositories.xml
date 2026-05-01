@@ -2,9 +2,9 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
-      <option name="id" value="igix-rep" />
-      <option name="name" value="igix-rep" />
-      <option name="url" value="https://repos.iec.io/repository/maven-igix/" />
+      <option name="id" value="abc-rep" />
+      <option name="name" value="abc-rep" />
+      <option name="url" value="https://repos.iec.io/repository/maven-abc/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />

@@ -1,4 +1,4 @@
-package com.igix.i18n.config;
+package com.abc.i18n.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

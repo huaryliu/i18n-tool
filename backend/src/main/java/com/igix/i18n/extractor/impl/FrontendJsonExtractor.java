@@ -1,7 +1,7 @@
-package com.igix.i18n.extractor.impl;
+package com.abc.i18n.extractor.impl;
 
-import com.igix.i18n.extractor.ResourceExtractor;
-import com.igix.i18n.model.ExtractedFile;
+import com.abc.i18n.extractor.ResourceExtractor;
+import com.abc.i18n.model.ExtractedFile;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

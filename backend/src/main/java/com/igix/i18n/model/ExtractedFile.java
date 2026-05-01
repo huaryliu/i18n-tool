@@ -1,4 +1,4 @@
-package com.igix.i18n.model;
+package com.abc.i18n.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

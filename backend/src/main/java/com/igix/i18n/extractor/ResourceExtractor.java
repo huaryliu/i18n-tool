@@ -1,6 +1,6 @@
-package com.igix.i18n.extractor;
+package com.abc.i18n.extractor;
 
-import com.igix.i18n.model.ExtractedFile;
+import com.abc.i18n.model.ExtractedFile;
 
 import java.util.List;
 import java.util.Set;

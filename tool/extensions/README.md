@@ -8,7 +8,7 @@ This directory contains custom extension JARs for the I18n Resource Extractor.
 
 ```xml
 <dependency>
-    <groupId>com.igix</groupId>
+    <groupId>com.abc</groupId>
     <artifactId>i18n-extractor-api</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -19,8 +19,8 @@ This directory contains custom extension JARs for the I18n Resource Extractor.
 ```java
 package com.example;
 
-import com.igix.i18n.extractor.ResourceExtractor;
-import com.igix.i18n.model.ExtractedFile;
+import com.abc.i18n.extractor.ResourceExtractor;
+import com.abc.i18n.model.ExtractedFile;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

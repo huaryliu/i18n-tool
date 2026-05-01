@@ -1,11 +1,11 @@
-package com.igix.i18n;
+package com.abc.i18n;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.igix.i18n")
+@ComponentScan(basePackages = "com.abc.i18n")
 public class I18nExtractorApplication {
 
     public static void main(String[] args) {

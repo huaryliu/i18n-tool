@@ -1,4 +1,4 @@
-package com.igix.i18n.controller;
+package com.abc.i18n.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

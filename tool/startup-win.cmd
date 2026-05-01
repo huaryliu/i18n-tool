@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title iGIX I18n Resource Extractor
+title abc I18n Resource Extractor
 
 :: Optional values: prod|dev.
 :: prod:Production Environment; dev:Development Environment
@@ -42,7 +42,7 @@ for /r "%RTF_BOOT_HOME%\" %%k in (i18n-extractor*.jar) do (
    )
 
 echo =====================================
-echo iGIX I18N Resource Extractor
+echo abc I18N Resource Extractor
 echo =====================================
 echo.
 echo JAVA_HOME: %JAVA_HOME%

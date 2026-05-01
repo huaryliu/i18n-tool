@@ -1,8 +1,8 @@
-iGIX I18n Resource Extractor
+abc I18n Resource Extractor
 Version: 1.0.0
 Build Date: 2025-08-16
-Copyright: iGIX
-Description: Internationalization resource file extraction tool for iGIX products
+Copyright: abc
+Description: Internationalization resource file extraction tool for abc products
 
 Features:
 - Backend .properties files extraction (zh-CHS, en, zh-CHT)

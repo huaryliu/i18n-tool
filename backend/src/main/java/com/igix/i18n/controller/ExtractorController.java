@@ -1,9 +1,9 @@
-package com.igix.i18n.controller;
+package com.abc.i18n.controller;
 
-import com.igix.i18n.dto.ExtractRequest;
-import com.igix.i18n.extractor.ResourceExtractor;
-import com.igix.i18n.model.ExtractedFile;
-import com.igix.i18n.service.ExtractorService;
+import com.abc.i18n.dto.ExtractRequest;
+import com.abc.i18n.extractor.ResourceExtractor;
+import com.abc.i18n.model.ExtractedFile;
+import com.abc.i18n.service.ExtractorService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

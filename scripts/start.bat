@@ -1,6 +1,6 @@
 @echo off
 echo =====================================
-echo iGIX Internationalization Resource
+echo abc Internationalization Resource
 echo Extraction Tool
 echo =====================================
 echo.

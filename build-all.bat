@@ -1,6 +1,6 @@
 @echo off
 echo =====================================
-echo Building iGIX I18n Resource Extractor
+echo Building abc I18n Resource Extractor
 echo =====================================
 echo.
 

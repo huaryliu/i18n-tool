@@ -2,7 +2,7 @@
   <div class="extractor-view">
     <el-container>
       <el-header class="header">
-        <h1>iGIX 国际化资源文件提取工具</h1>
+        <h1>abc 国际化资源文件提取工具</h1>
       </el-header>
 
       <el-container class="vertical-container">
@@ -18,7 +18,7 @@
                 <el-form-item label="盘根目录">
                   <el-input
                     v-model="config.rootPath"
-                    placeholder="输入盘根目录路径，例如: D:\worker\iGIX\igix_2508_x86_64_build20250818"
+                    placeholder="输入盘根目录路径，例如: D:\worker\abc\abc_2508_x86_64_build20250818"
                     type="textarea"
                     :rows="2"
                   />
@@ -28,7 +28,7 @@
               <el-col :span="8">
                 <el-form-item label="快速选择">
                   <el-space wrap>
-                    <el-button size="small" @click="setPath('igix')">iGIX默认路径</el-button>
+                    <el-button size="small" @click="setPath('abc')">abc默认路径</el-button>
                     <el-button size="small" @click="setPath('custom')">自定义路径</el-button>
                   </el-space>
                 </el-form-item>
@@ -121,7 +121,7 @@ export default {
   },
   setup() {
     const config = ref({
-      rootPath: 'D:\\backup\\worker\\iGIX\\igix_2508_x86_64_build20250818',
+      rootPath: 'D:\\backup\\worker\\abc\\abc_2508_x86_64_build20250818',
       languages: ['zh-CHS']
     })
 
@@ -141,10 +141,10 @@ export default {
 
     const setPath = (type) => {
       switch (type) {
-        case 'igix':
-          // 设置默认的iGIX路径
-          config.value.rootPath = 'D:\\backup\\worker\\iGIX\\igix_2508_x86_64_build20250818'
-          ElMessage.success('已设置为默认iGIX路径')
+        case 'abc':
+          // 设置默认的abc路径
+          config.value.rootPath = 'D:\\backup\\worker\\abc\\abc_2508_x86_64_build20250818'
+          ElMessage.success('已设置为默认abc路径')
           break
         case 'custom':
           // 提示用户输入自定义路径
